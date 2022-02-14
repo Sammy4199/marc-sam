@@ -9,3 +9,25 @@ body {
     color: white;
     margin: auto;
 }
+#name, #email, #number, #dropdown, #comment {
+  display: block;
+  width: 50%;
+  height: 2.375rem;
+  padding: 0.25rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+#description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+  
