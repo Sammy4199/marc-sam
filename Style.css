@@ -48,3 +48,27 @@ body {
     min-height: 1.25rem;
     min-width: 1.25rem;
   }
+#name, #email, #number, #dropdown, #comment,
+   #title, #description{
+     text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+  }
+  #submit {
+    display: block;
+    width: 50%;
+    padding: 0.75rem;
+    background: rgb(235, 77, 77);
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  .fields {
+    text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+  }
